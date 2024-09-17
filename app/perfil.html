@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui">
+  <title>Perfil</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/framework7@6.0.0/framework7-bundle.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- App Root -->
+  <div id="app">
+    <!-- Panel lateral izquierdo -->
+    <div class="panel panel-left panel-cover">
+      <div class="view view-init" data-name="menu">
+        <div class="page">
+          <div class="page-content">
+            <div class="block-title">Menú</div>
+            <div class="list">
+              <ul>
+                <li>
+                  <a href="#" class="panel-close item-link">
+                    <div class="item-content">
+                      <div class="item-inner">
+                        <div class="item-title">Inicio</div>
+                      </div>
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a href="#perfil" class="panel-close item-link">
+                    <div class="item-content">
+                      <div class="item-inner">
+                        <div class="item-title">Perfil</div>
+                      </div>
+                    </div>
+                  </a>
+                </li>
+                <!-- Agregar más enlaces si es necesario -->
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Main View -->
+    <div class="view view-main">
+      <!-- Navbar -->
+      <div class="navbar">
+        <div class="navbar-inner">
+          <div class="left">
+            <a href="#" class="link panel-open" data-panel="left">
+              <i class="icon icon-menu"></i>
+            </a>
+          </div>
+          <div class="title">Perfil</div>
+        </div>
+      </div>
+
+      <!-- Page -->
+      <div class="content" id="perfil">
+		  
+		  
+        <!-- Perfil del usuario -->
+        <div class="page-content">
+          <div class="block">
+            <div class="profile-container">
+              <!-- Avatar del usuario -->
+              <div class="profile-avatar">
+                <img src="../img/juan.jpg"  width="150" alt="Avatar de usuario" class="avatar-image">
+              </div>
+              
+              <!-- Información del usuario -->
+              <div class="profile-info">
+                <h2 class="profile-name">Nombre del Usuario</h2>
+                <p class="profile-description">
+                   Aquí puedes gestionar tu información personal y detalles sobre la app.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Detalle informativo de la aplicación -->
+          <div class="block">
+            <h3>Sobre esta aplicación</h3>
+            <p>
+              Esta aplicación está diseñada para ofrecer una experiencia fluida al usuario. Aquí podrás gestionar tus productos de panadería, hacer pedidos, y revisar tu perfil, entre otras funciones.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/framework7@6.0.0/framework7-bundle.min.js"></script>
+  <script>
+    var app = new Framework7({
+      root: '#app',
+      name: 'Panadería',
+      theme: 'auto', // Cambia entre iOS y Material automáticamente
+      panel: {
+        swipe: 'left', // Permite deslizar el panel lateral
+      },
+    });
+  </script>
+</body>
+</html>
+
+				
+				

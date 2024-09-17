@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root{
+	--f7-theme-color:#5079FE;
+	--f7-navbar-bg-color: #fff; /*navbar*/
+	--f7-navbar-link-color: #000; /*navbar link*/
+	--f7-navbar-text-color:#000;
+	--f7-bars-bg-color:#fff;/*toolbar*/
+	--f7-tabbar-link-inactive-color: #333; /*link toolbar*/
+	--f7-block-margin-vertical:20px;
+	--f7-card-footer-border-color:transparent; 
+	--color-azul:#5079FE;
+	--color-verde:#4BB889;
+	--color-gris:#7C899F;
+	--color-grisc:#E6E8EA;
+	--fondo-gris:#f2f2f2;
+}
+
+/* Estilo para el perfil del usuario */
+.profile-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.profile-avatar {
+  margin-bottom: 15px;
+}
+
+.avatar-image {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #FF5722;
+}
+
+.profile-info {
+  text-align: center;
+}
+
+.profile-name {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 10px 0;
+  color: #333;
+}
+
+.profile-description {
+  font-size: 16px;
+  color: #757575;
+  margin: 0 10px;
+}
+
+/* Estilo para el bloque de información de la aplicación */
+.block h3 {
+  font-size: 20px;
+  font-weight: bold;
+  color: #FF5722;
+}
+
+.block p {
+  font-size: 16px;
+  color: #555;
+}
+
+/* Estilo para el panel lateral */
+.panel-left .list ul {
+  padding: 10px 0;
+}
+
+.panel-left .list li {
+  padding: 15px 0;
+}
+
+.panel-left .list .item-inner {
+  font-size: 18px;
+  color: #333;
+}
+
+.navbar {
+  background-color: #734A22;
+  color: white;
+}
+
+.navbar .title {
+  font-size: 22px;
+}
+
+
+
+
+
